@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,151 +10,137 @@
     <link rel="stylesheet" href="css/style.css">
     <title>My resume</title>
 </head>
-<body>
 
-    <!-- Обгортка -->
+<body>
     <div class="wrapper">
-        <!-- Головний контент -->
-        <div class="main-content">
-            <!-- Моя інформаці -->
+
+        <button id="language-switch" onclick="switchLanguage()">UA</button>
+        <!-- Головний контент (англійська версія) -->
+        <div id="content-en" class="main-content">
             <div class="my-info">
-                <!-- <h2 class="my-profession">Front-End Developer</h2> -->
                 <h1 class="my-name">Oliinyk Maksym</h1>
-                <p class="my-descr">I'm a 19-year-old student currently studying front-end development with a focus on JavaScript, HTML, and CSS. I am passionate about building responsive and visually engaging websites and am committed to learning best practices in web development. Eager to apply my growing knowledge and contribute to impactful projects, I’m focused on creating efficient, user-friendly web experiences.</p>
-                
+                <p class="my-descr">I'm a 19-year-old student currently studying front-end development with a focus on
+                    JavaScript, HTML, and CSS. I am passionate about building responsive and visually engaging websites
+                    and am committed to learning best practices in web development. Eager to apply my growing knowledge
+                    and contribute to impactful projects, I’m focused on creating efficient, user-friendly web
+                    experiences.</p>
             </div>
 
-            <!-- Мої проєкти -->
             <div class="my-projects-container">
                 <h3 class="my-projects-title">Projects</h3>
                 <ol class="my-projects-list">
                     <li class="my-projects-item">
-                        <a class="my-projects-item-link" href="https://t3vel.github.io/habbit-app/#1" target="_blank">https://t3vel.github.io/habbit-app/#1</a>
-                        <span class="my-projects-item-tech">
-                        ...........
-                        [ HTML5, CSS3, JS ]
-                    </span>
+                        <a class="my-projects-item-link" href="https://t3vel.github.io/habbit-app/#1"
+                            target="_blank">https://t3vel.github.io/habbit-app/#1</a>
+                        <span class="my-projects-item-tech">[ HTML5, CSS3, JS ]</span>
                     </li>
-
                     <li class="my-projects-item">
-                        <a class="my-projects-item-link"href="https://t3vel.github.io/todo-list/" target="_blank">https://t3vel.github.io/todo-list/</a>
-                        <span class="my-projects-item-tech">
-                        ...........
-                        [ HTML5, CSS3, JS ]
-                   </span>
+                        <a class="my-projects-item-link" href="https://t3vel.github.io/todo-list/"
+                            target="_blank">https://t3vel.github.io/todo-list/</a>
+                        <span class="my-projects-item-tech">[ HTML5, CSS3, JS ]</span>
                     </li>
-
                     <li class="my-projects-item">
-                        <a class="my-projects-item-link"href="https://t3vel.github.io/password-generator/" target="_blank">https://t3vel.github.io/password-generator/</a>
-                        <span class="my-projects-item-tech">
-                        ...........
-                        [ HTML5, CSS3, JS ]
-                   </span>
+                        <a class="my-projects-item-link" href="https://t3vel.github.io/password-generator/"
+                            target="_blank">https://t3vel.github.io/password-generator/</a>
+                        <span class="my-projects-item-tech">[ HTML5, CSS3, JS ]</span>
                     </li>
-
-    
                 </ol>
             </div>
 
-            <!-- Досвід роботи -->
-            <!-- <div class="">
-                <h3 class="work-experiance-title">Work Expereince</h3> -->
-
-                <!-- Компанія 1
-                <div class="work-experiance-container">
-                    <h4 class="work-experiance-company">Front-End Developer <span class="company-name">Freelance</span> </h4>
-                    <p class="work-experiance-period">September 2019 - up to now   <span class="work-experiance-period-separator">|</span> Country</p>
-
-                    <ul class="work-experiance-duties-list">
-                        <li class="work-experiance-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                        <li class="work-experiance-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="work-experiance-duties-item">Risus commodo viverra maecenas.</li>
-                        <li class="work-experiance-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-
-                    </ul>
-                </div>
-
-             
-                <div class="work-experiance-container">
-                    <h4 class="work-experiance-company">Manager <span class="company-name">Banderogusak & Co.</span></h4>
-                    <p class="work-experiance-period">March 2015 - October 2018  <span class="work-experiance-period-separator">|</span>   Country</p>
-
-                    <ul class="work-experiance-duties-list">
-                        <li class="work-experiance-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. </li>
-                        <li class="work-experiance-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="work-experiance-duties-item">Risus commodo viverra maecenas.</li>
-
-                    </ul>
-                </div>
-
-               
-                <div class="work-experiance-container">
-                    <h4 class="work-experiance-company">Manager <span class="company-name">BestUA Corp.</span></h4>
-                    <p class="work-experiance-period">June 2014 - February 2015   <span class="work-experiance-period-separator">|</span>   Country</p>
-
-                    <ul class="work-experiance-duties-list">
-                        <li class="work-experiance-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </li>
-                        <li class="work-experiance-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="work-experiance-duties-item">Risus commodo viverra maecenas.</li>
-
-                    </ul>
-                </div>  
-
-            </div> -->
-
-            <!-- Освіта -->
             <div class="education-container">
                 <h3 class="education-title">Education</h3>
                 <h4 class="education-place">National Aviation University</h4>
                 <h5 class="education-education">Computer engineering</h5>
-                <p class="work-experiance-period">September 2022 - untill   <span class="work-experiance-period-separator">|</span>   Ukraine</p>
+                <p class="work-experiance-period">September 2022 - until | Ukraine</p>
             </div>
-
-
         </div>
-        
-        <!-- Side Bar -->
-        <aside class="sidebar">
-            <!-- <img src="img/my photo.png" alt="My photo" width=370>  -->
 
+        <!-- Головний контент (українська версія) -->
+        <div id="content-ua" class="main-content" style="display: none;">
+            <div class="my-info">
+                <h1 class="my-name">Олійник Максим</h1>
+                <p class="my-descr">Я 19-річний студент, зараз вивчаю розробку інтерфейсу з акцентом на JavaScript, HTML
+                    і CSS. Я захоплююся створенням адаптивних і візуально привабливих веб-сайтів і прагну вивчати
+                    найкращі практики веб-розробки. Бажаючи застосувати свої знання, що збільшуються, і внести свій
+                    внесок у ефективні проекти, я зосереджуюсь на створенні ефективних, зручних веб-інтерфейсів.</p>
+            </div>
+
+            <div class="my-projects-container">
+                <h3 class="my-projects-title">Проєкти</h3>
+                <ol class="my-projects-list">
+                    <li class="my-projects-item">
+                        <a class="my-projects-item-link" href="https://t3vel.github.io/habbit-app/#1"
+                            target="_blank">https://t3vel.github.io/habbit-app/#1</a>
+                        <span class="my-projects-item-tech">[ HTML5, CSS3, JS ]</span>
+                    </li>
+                    <li class="my-projects-item">
+                        <a class="my-projects-item-link" href="https://t3vel.github.io/todo-list/"
+                            target="_blank">https://t3vel.github.io/todo-list/</a>
+                        <span class="my-projects-item-tech">[ HTML5, CSS3, JS ]</span>
+                    </li>
+                    <li class="my-projects-item">
+                        <a class="my-projects-item-link" href="https://t3vel.github.io/password-generator/"
+                            target="_blank">https://t3vel.github.io/password-generator/</a>
+                        <span class="my-projects-item-tech">[ HTML5, CSS3, JS ]</span>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="education-container">
+                <h3 class="education-title">Освіта</h3>
+                <h4 class="education-place">Національний авіаційний університет</h4>
+                <h5 class="education-education">Комп'ютерна інженерія</h5>
+                <p class="work-experiance-period">Вересень 2022 - дотепер | Україна</p>
+            </div>
+        </div>
+
+        <!-- Sidebar англійською -->
+        <aside id="sidebar-en" class="sidebar">
             <div class="sidebar-content">
-
-            <div class="contacts-container">
-                <h3 class="contacts-title">Contacts</h3>
-                <p class="contacts-elements"><span class="contacts-type">E:</span> <a class="contacts-link" href="mailto: t.goitinskiy@gmail.com">maksim.oleynik2017@gmail.com</a></p>
-
-
-            </div>
-
-            <div class="skills-container">
-                <h3 class="skills-title">Tech Skills</h3>
-                <ul class="skills-list">
-                    <li class="skills-list-item">HTML5</li>
-                    <li class="skills-list-item">CSS3</li>
-                    <li class="skills-list-item">GIT</li>
-                    <li class="skills-list-item">JavaScript</li>
-                </ul>
-
-            </div>
-
-            <div class="skills-container">
-                <h3 class="skills-title">Soft Skills</h3>
-                <ul class="skills-list">
-                <li class="skills-list-item">Scrum</li>
-                <li class="skills-list-item">Agile</li>
-                <li class="skills-list-item">Teamwork</li>
-                </ul>
-                
-            </div>
-
-
-
+                <div class="contacts-container">
+                    <h3 class="contacts-title">Contacts</h3>
+                    <p class="contacts-elements"><span class="contacts-type">Email:</span> <a class="contacts-link"
+                            href="mailto:maksim.oleynik2017@gmail.com">maksim.oleynik2017@gmail.com</a></p>
+                </div>
+                <div class="skills-container">
+                    <h3 class="skills-title">Tech Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">HTML5</li>
+                        <li class="skills-list-item">CSS3</li>
+                        <li class="skills-list-item">GIT</li>
+                        <li class="skills-list-item">JavaScript</li>
+                        <li class="skills-list-item">React (basic)</li>
+                    </ul>
+                </div>
             </div>
         </aside>
 
-
-
+        <!-- Sidebar українською -->
+        <aside id="sidebar-ua" class="sidebar" style="display: none;">
+            <div class="sidebar-content">
+                <div class="contacts-container">
+                    <h3 class="contacts-title">Контакти</h3>
+                    <p class="contacts-elements"><span class="contacts-type">Ел. пошта:</span> <a class="contacts-link"
+                            href="mailto:maksim.oleynik2017@gmail.com">maksim.oleynik2017@gmail.com</a></p>
+                </div>
+                <div class="skills-container">
+                    <h3 class="skills-title">Технічні навички</h3>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">HTML5</li>
+                        <li class="skills-list-item">CSS3</li>
+                        <li class="skills-list-item">GIT</li>
+                        <li class="skills-list-item">JavaScript</li>
+                        <li class="skills-list-item">React (базово)</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
     </div>
 
+    <script src="main.js">
+
+    </script>
 </body>
+
 </html>

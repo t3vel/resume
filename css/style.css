@@ -46,10 +46,8 @@ ol {
 }
 
 .sidebar-content {
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 40px;
   box-sizing: border-box;
+  padding: 40px;
 }
 
 .sidebar-image {
@@ -132,6 +130,7 @@ ol {
 }
 
 .my__role {
+  display: block;
   font-weight: 700;
   font-size: 18px;
 }
@@ -139,7 +138,6 @@ ol {
 .my-descr {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
 }
 
 .my-info {

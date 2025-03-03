@@ -1,363 +1,344 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: #F6F6FA;
-    padding: 40px 40px 40px 40px;
-    font-family: 'Montserrat', sans-serif;
+  background: #f6f6fa;
+  padding: 10px 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul,
 ol {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .wrapper {
-    position: relative;
-    background: #FFF;
-    display: flex;
-    flex-direction: row-reverse;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .main-content {
-    padding-left: 88px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-right: 40px;
-    box-sizing: border-box;
-    width: 70%;
-    /* Відносна ширина */
+  color: #fff;
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  width: 70%;
+  background-color: #262626;
 }
 
 .sidebar {
-    background: #e0ebfe;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    width: 30%;
-    max-width: 370px;
+  background: #222222;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 30%;
+  max-width: 370px;
 }
 
-
 .sidebar-content {
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar-image {
+  width: 100%;
 }
 
 .contacts-title {
-    color: #161D2A;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #00a3ff;
 }
 
 .contacts-type {
-    color: #161D2A;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-right: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
 }
 
 .contacts-link {
-    color: #2979FF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration-line: underline;
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
 }
 
 .contacts-elements {
-    margin-top: 0;
-    margin-bottom: 4px;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .contacts-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .skills-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .skills-title {
-    color: #161D2A;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #00a3ff;
 }
 
 .skills-list {
-    padding-left: 16px;
-
+  padding-left: 16px;
 }
 
 .skills-list-item {
-    color: #161D2A;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /* Main content */
 
-
-
-
-
-
 .my-profession {
-    color: #000;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 17px;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .my-name {
-    color: #000;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 55px;
-    margin-top: 0;
-    margin-bottom: 12px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #00a3ff;
+}
+
+.my__role {
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .my-descr {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .my-info {
-    margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .my-projects-title {
-    color: #000;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 27px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #00a3ff;
 }
 
 .my-projects-item {
-    color: #000;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
 }
 
 .my-projects-list {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .my-projects-item-link {
-    color: #005FFF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration-line: underline;
+  color: #a8c6fc;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
 }
 
 .my-projects-item-tech {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .my-projects-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 /* Work experience */
 
 .work-experiance-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
-
 
 .work-experiance-title {
-    color: #000;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 27px;
-    margin-top: 0;
-}
-
-.work-experiance-company {
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    margin-top: 0px;
-    margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
 }
 
 .company-name {
-    color: #6D9BF5;
+  color: #6d9bf5;
 }
 
 .work-experiance-period {
-    color: #A8A8A8;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    margin-bottom: 8px;
-}
-
-.work-experiance-period-separator {
-    color: #000;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
 }
 
 .work-experiance-duties-list {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .work-experiance-duties-item {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .work-experiance-container {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
-.educational.title {
-    color: #000;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
-
+.education-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  color: #00a3ff;
 }
 
 .education-place {
-    color: #6D9BF5;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
 }
-
 
 .education-education {
-    color: #000;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: normal;
-
-
-    margin-top: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
 }
 
-
 .education-container {
-    margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 h3,
 h4,
 h5 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 /* Кнопка перемикання мови */
 #language-switch {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: #6D9BF5;
-    color: #FFF;
-    border: none;
-    padding: 8px 12px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #656869;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Стилі для планшетів */
 @media (max-width: 992px) {
-    .wrapper {
-        flex-direction: column;
-        width: 100%;
-    }
+  body {
+    padding: 0;
+  }
 
-    .sidebar,
-    .main-content {
-        width: 100%;
-        padding: 15px;
-    }
+  .wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .contacts-title,
-    .skills-title,
-    .my-projects-title,
-    .work-experiance-title,
-    .education-title {
-        font-size: 20px;
-    }
+  .sidebar,
+  .main-content {
+    min-width: 100%;
+  }
 
-    .my-name {
-        font-size: 36px;
-        line-height: 46px;
-    }
+  .contacts-title,
+  .skills-title,
+  .my-projects-title,
+  .work-experiance-title,
+  .education-title {
+    font-size: 20px;
+  }
+
+  .my-name {
+    font-size: 36px;
+    line-height: 46px;
+  }
 }
 
 /* Стилі для мобільних пристроїв */
 @media (max-width: 576px) {
-    .wrapper {
-        width: 100%;
-    }
+  .wrapper {
+    width: 100%;
+  }
 
-    .sidebar,
-    .main-content {
-        padding: 10px;
-    }
+  .sidebar {
+    padding: 0;
+  }
 
-    .sidebar-content {
-        padding: 10px;
-    }
+  .main-content,
+  .sidebar-content {
+    padding: 30px;
+  }
 
-    #language-switch {
-        top: 10px;
-        right: 10px;
+  aside {
+    border-top: 1px solid #fff;
+  }
 
-    }
+  #language-switch {
+    top: 10px;
+    right: 10px;
+  }
 
-    .my-name {
-        font-size: 20px;
-        line-height: 36px;
-    }
+  .my-name {
+    font-size: 20px;
+    line-height: 36px;
+  }
 
-    .contacts-title,
-    .skills-title,
-    .my-projects-title,
-    .work-experiance-title,
-    .education-title {
-        font-size: 16px;
-    }
+  .contacts-title,
+  .skills-title,
+  .my-projects-title,
+  .work-experiance-title,
+  .education-title {
+    font-size: 16px;
+  }
 
-    .skills-container,
-    .contacts-container {
-        margin-bottom: 15px;
-    }
+  .skills-container,
+  .contacts-container {
+    margin-bottom: 15px;
+  }
 }
